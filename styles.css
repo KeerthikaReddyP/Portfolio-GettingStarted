@@ -1,5 +1,6 @@
 :root{
     --navbar-color:rgb(240, 149, 195);
+    --ow-color:rgb(251, 225, 238);
 }
 body{
     font-family: sans-serif;
@@ -45,4 +46,19 @@ body{
 .section{
     text-align:center;
     margin:2rem;
+    max-height: 20rem;
+}
+.ow{
+    background-color: var(--ow-color);
+}
+
+.table{
+    margin:auto;
+    text-align:left;
+}
+.table-heading{
+    padding: 0.5rem;
+}
+.table-data{
+    padding:0.5rem;
 }
