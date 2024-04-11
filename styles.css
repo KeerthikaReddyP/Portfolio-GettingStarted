@@ -1,0 +1,19 @@
+:root{
+    --navbar-color:rgb(240, 149, 195);
+}
+body{
+    font-family: sans-serif;
+}
+
+.navigation{
+    background-color: var(--navbar-color);
+}
+.header-nav{
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.footer-nav{
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
