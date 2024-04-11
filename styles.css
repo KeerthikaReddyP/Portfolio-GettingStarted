@@ -79,6 +79,9 @@ body{
     margin:1rem;
     padding:0.3rem;
 }
+.active-link{
+    font-weight: bolder;
+}
 .projects-link{
     font-size: x-large;
     /* background-color: var(--ow-color); */
