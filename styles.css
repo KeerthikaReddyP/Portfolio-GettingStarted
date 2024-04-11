@@ -19,6 +19,7 @@ body{
 
 .list-unordered{
     list-style: none;
+    padding-inline-start: 0px;
 }
 .list-item{
     display:inline;
@@ -29,7 +30,6 @@ body{
 }
 .footer-list{
     text-align: center;
-    padding-inline-start: 0px;
 }
 .footer-heading{
     text-align:center;
