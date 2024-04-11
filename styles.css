@@ -36,7 +36,7 @@ body{
 }
 
 #name{
-    font-size: larger;
+    font-size: x-large;
 }
 
 .image{
@@ -47,6 +47,7 @@ body{
     text-align:center;
     margin:2rem;
     max-height: 20rem;
+    padding:0.5rem;
 }
 .ow{
     background-color: var(--ow-color);
@@ -61,4 +62,41 @@ body{
 }
 .table-data{
     padding:0.5rem;
+}
+.sh{
+    text-align:right;
+}
+
+.para{
+    padding:0.5rem;
+}
+
+
+.link{
+    text-decoration: none;
+    color:black;
+    font-size: large;
+    margin:1rem;
+    padding:0.3rem;
+}
+.projects-link{
+    font-size: x-large;
+    /* background-color: var(--ow-color); */
+    border-radius: 0.8rem;
+    box-shadow: 0.3rem 0.3rem 0.15rem black;
+}
+.blogs-link{
+    border: 0.1rem solid var(--ow-color);
+    border-radius:0.8rem;
+    box-shadow: 0.3rem 0.3rem 0.15rem black;
+}
+section a:hover{
+    background-color: chocolate;
+    font-size: xx-large;
+}
+
+
+.icon{
+    width: 2em;
+    margin-right: .5rem;
 }
