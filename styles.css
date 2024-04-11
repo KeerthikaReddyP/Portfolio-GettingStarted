@@ -7,13 +7,29 @@ body{
 
 .navigation{
     background-color: var(--navbar-color);
+    padding:1rem;
 }
 .header-nav{
     border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
 }
 .footer-nav{
-    border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
 }
 
+.list-unordered{
+    list-style: none;
+}
+.list-item{
+    display:inline;
+    padding:0rem 0.5rem;
+}
+.header-list{
+    text-align: right;
+}
+.footer-list{
+    text-align: center;
+}
+
+#name{
+    font-size: larger;
+}
