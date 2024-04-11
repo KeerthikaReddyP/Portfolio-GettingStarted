@@ -28,8 +28,21 @@ body{
 }
 .footer-list{
     text-align: center;
+    padding-inline-start: 0px;
+}
+.footer-heading{
+    text-align:center;
 }
 
 #name{
     font-size: larger;
+}
+
+.image{
+    max-width: 20rem;
+}
+
+.section{
+    text-align:center;
+    margin:2rem;
 }
