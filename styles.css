@@ -1,6 +1,6 @@
 :root{
     --navbar-color:rgb(240, 149, 195);
-    --ow-color:rgb(251, 225, 238);
+    --ow-color:rgb(251, 217, 234);
 }
 body{
     font-family: sans-serif;
@@ -94,7 +94,7 @@ body{
     box-shadow: 0.3rem 0.3rem 0.15rem black;
 }
 section a:hover{
-    background-color: chocolate;
+    background-color: var(--ow-color);
     font-size: xx-large;
 }
 
@@ -102,4 +102,23 @@ section a:hover{
 .icon{
     width: 2em;
     margin-right: .5rem;
+}
+
+.project-div{
+    margin:auto;
+    padding:1rem;
+    text-align:center;
+    width:30%;
+}
+
+.linkk{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+}
+.btnn{
+    background-color: var(--navbar-color);
+    size: 1rem;
+    padding:0.5rem;
+    border-radius: 0.3rem;
 }
